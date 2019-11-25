@@ -72,7 +72,7 @@ namespace Interface
         /// <param name="e"></param>
         private void lblPlayCandyland_MouseLeave(object sender, EventArgs e)
         {
-            this.lblPlayCandyland.BackColor = GameInterface.ActiveForm.BackColor;
+            this.lblPlayCandyland.BackColor = Color.FromArgb(21, 32, 48);
             lblCandylandGamesPlayedCounter.ForeColor = Color.Black;
             lblCandylandGamesPlayedText.ForeColor = Color.Black;
             lblCandylandTimeCount.ForeColor = Color.Black;
