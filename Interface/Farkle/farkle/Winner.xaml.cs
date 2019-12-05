@@ -47,6 +47,7 @@ namespace Farkle
         /// <param name="e">RoutedEventArgs e.</param>
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
+            //Environment.Exit(0);
             // Close application.
             this.Close();
         }
