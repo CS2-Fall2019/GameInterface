@@ -29,12 +29,12 @@ namespace Interface
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void lblPlayFarkle_MouseHover(object sender, EventArgs e)
-        {           
+        {
             this.lblPlayFarkle.BackColor = Color.FromArgb(214, 199, 156);
-            lblFarkleGamesPlayedCounter.ForeColor = Color.GhostWhite;
-            lblFarkleGamesPlayedText.ForeColor = Color.GhostWhite;
-            lblFarkleTimeCount.ForeColor = Color.GhostWhite;
-            lblFarkleTimeText.ForeColor = Color.GhostWhite;
+            lblFarkleGamesPlayedCounter.ForeColor = Color.Blue;
+            lblFarkleGamesPlayedText.ForeColor = Color.Blue;
+            lblFarkleTimeCount.ForeColor = Color.Blue;
+            lblFarkleTimeText.ForeColor = Color.Blue;
         }
 
         /// <summary>
@@ -44,7 +44,7 @@ namespace Interface
         /// <param name="e"></param>
         private void lblPlayFarkle_MouseLeave(object sender, EventArgs e)
         {
-            this.lblPlayFarkle.BackColor = Color.FromArgb(21, 32, 48);
+            this.lblPlayFarkle.BackColor = Color.FromArgb(192, 255, 192);
             lblFarkleGamesPlayedCounter.ForeColor = Color.Black;
             lblFarkleGamesPlayedText.ForeColor = Color.Black;
             lblFarkleTimeCount.ForeColor = Color.Black;
@@ -59,10 +59,10 @@ namespace Interface
         private void lblPlayCandyland_MouseHover(object sender, EventArgs e)
         {
             this.lblPlayCandyland.BackColor = Color.FromArgb(214, 199, 156);
-            lblCandylandGamesPlayedCounter.ForeColor = Color.GhostWhite;
-            lblCandylandGamesPlayedText.ForeColor = Color.GhostWhite;
-            lblCandylandTimeCount.ForeColor = Color.GhostWhite;
-            lblCandylandTimeText.ForeColor = Color.GhostWhite;
+            lblCandylandGamesPlayedCounter.ForeColor = Color.Blue;
+            lblCandylandGamesPlayedText.ForeColor = Color.Blue;
+            lblCandylandTimeCount.ForeColor = Color.Blue;
+            lblCandylandTimeText.ForeColor = Color.Blue;
         }
 
         /// <summary>
@@ -72,7 +72,7 @@ namespace Interface
         /// <param name="e"></param>
         private void lblPlayCandyland_MouseLeave(object sender, EventArgs e)
         {
-            this.lblPlayCandyland.BackColor = Color.FromArgb(21, 32, 48);
+            this.lblPlayCandyland.BackColor = Color.FromArgb(192, 255, 192);
             lblCandylandGamesPlayedCounter.ForeColor = Color.Black;
             lblCandylandGamesPlayedText.ForeColor = Color.Black;
             lblCandylandTimeCount.ForeColor = Color.Black;
@@ -92,7 +92,7 @@ namespace Interface
         private void lblPlayFarkle_Click(object sender, EventArgs e)
         {
             pbFarkle.Visible = Visible;
-            while(pbFarkle.Value != 100)
+            while (pbFarkle.Value != 100)
             {
                 int FarkleLoadProgressRate = rand.Next(300) + 1;
                 pbFarkle.PerformStep();
@@ -104,9 +104,10 @@ namespace Interface
                 //Game_CandyLand.CandyLandGame CandylandForm = new Game_CandyLand.CandyLandGame();
                 //CandylandForm.Show();
                 Farkle.MainMenu FarkleMenu = new Farkle.MainMenu();
-                FarkleMenu.Show();
+                FarkleMenu.ShowDialog();
                 pbFarkle.Value = 0;
                 pbFarkle.Visible = false;
+                                
             }
         }
 
@@ -123,7 +124,7 @@ namespace Interface
             if(pbCandyland.Value == 100)
             {
                 Game_CandyLand.CandyLandGame CandylandForm = new Game_CandyLand.CandyLandGame();
-                CandylandForm.Show();
+                CandylandForm.ShowDialog();
                 pbCandyland.Value = 0;
                 pbCandyland.Visible = false;
             }
