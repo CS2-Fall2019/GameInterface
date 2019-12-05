@@ -1,0 +1,46 @@
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.GameInterface.resources
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\Home\source\repos\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\Home\source\repos\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\Home\source\repos\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.GameInterface.resources
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Resources\Farkle.png
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Scoring.xaml.cs
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Farkle.exe
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Game_CandyLand.exe
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Game_CandyLand.pdb
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Game_CandyLand.exe.config
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Farkle.pdb
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\bin\Debug\Farkle.exe.config
+C:\Users\Home\OneDrive\Desktop\Interface\Interface\obj\Debug\Interface.csproj.CopyComplete
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Resources\Farkle.png
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Scoring.xaml.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Farkle.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Game_CandyLand.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Game_CandyLand.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Game_CandyLand.exe.config
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Farkle.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\bin\Debug\Farkle.exe.config
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.GameInterface.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.csproj.GenerateResource.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.csproj.CopyComplete
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Interface\obj\Debug\Interface.pdb
