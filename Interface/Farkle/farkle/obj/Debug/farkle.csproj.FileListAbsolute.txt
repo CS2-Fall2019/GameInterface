@@ -376,3 +376,27 @@ C:\Users\Home\OneDrive\Desktop\Interface\Farkle\farkle\obj\Debug\Farkle.Properti
 C:\Users\Home\OneDrive\Desktop\Interface\Farkle\farkle\obj\Debug\farkle.csproj.GenerateResource.cache
 C:\Users\Home\OneDrive\Desktop\Interface\Farkle\farkle\obj\Debug\Farkle.exe
 C:\Users\Home\OneDrive\Desktop\Interface\Farkle\farkle\obj\Debug\Farkle.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\bin\Debug\Resources\Farkle.png
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\bin\Debug\Scoring.xaml.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\bin\Debug\Farkle.exe.config
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\bin\Debug\Farkle.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\bin\Debug\Farkle.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\farkle.csprojAssemblyReference.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\MainMenu.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\MainWindow.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Scoring.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Winner.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\App.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle_Content.g.cs
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle_MarkupCompile.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle_MarkupCompile.lref
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\MainMenu.baml
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\MainWindow.baml
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Scoring.baml
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Winner.baml
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle.g.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle.Properties.Resources.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\farkle.csproj.GenerateResource.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\farkle.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Farkle\farkle\obj\Debug\Farkle.pdb

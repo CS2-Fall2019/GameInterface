@@ -40,6 +40,9 @@ namespace Farkle
         /// <param name="e">RoutedEventArgs e.</param>
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
+            // Close current window.
+            this.Hide();
+            
             int d = 0;
 
             if (cbxEasy.IsChecked == true)

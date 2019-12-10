@@ -1847,6 +1847,10 @@ namespace Farkle
             {
                 this.BtnNextTurn_Click(null, null);
             }
+            else
+            {
+                // Do nothing.
+            }
         }
 
         /// <summary>
@@ -2712,7 +2716,12 @@ namespace Farkle
             if (this.currentPlayerList[0].CurrentScore >= 10000)
             {
                 // Close current window.
-                this.Hide();
+                this.Close();
+
+                for (i = 0; i < this.currentPlayerList.Count; i++)
+                {
+                    this.currentPlayerList[i].IsAI = false;
+                }
 
                 // Create and show Winner page.
                 Winner win = new Winner();
@@ -2721,7 +2730,7 @@ namespace Farkle
                 {
                     // Display congratulatory message.
                     win.lblWinner.Content = "Congratulations player " + this.currentPlayerList[0].Number + " you win!";
-
+                                       
                     // Show win screen.
                     win.ShowDialog();
                 }
@@ -2847,7 +2856,7 @@ namespace Farkle
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
             // Close the form.
-            this.Close();
+            // this.Close();
             Environment.Exit(1);
         }
 
