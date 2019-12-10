@@ -19,6 +19,16 @@ namespace Interface
             InitializeComponent();
         }
 
+        // Intergers used to keep track of how many games have been played.
+        int candyCount = 0;
+        int farkleCount = 0;
+
+        // Used as start time for games is changed in button press.
+        DateTime candyStartTime = DateTime.Now;
+        TimeSpan candyOverallTime = TimeSpan.MinValue;
+        DateTime farkleStartTime = DateTime.Now;
+        TimeSpan farkleOverallTime = TimeSpan.MinValue;
+
         ///
         /// 
         Random rand = new Random();
@@ -29,12 +39,12 @@ namespace Interface
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void lblPlayFarkle_MouseHover(object sender, EventArgs e)
-        {           
+        {
             this.lblPlayFarkle.BackColor = Color.FromArgb(214, 199, 156);
-            lblFarkleGamesPlayedCounter.ForeColor = Color.GhostWhite;
-            lblFarkleGamesPlayedText.ForeColor = Color.GhostWhite;
-            lblFarkleTimeCount.ForeColor = Color.GhostWhite;
-            lblFarkleTimeText.ForeColor = Color.GhostWhite;
+            lblFarkleGamesPlayedCounter.ForeColor = Color.Blue;
+            lblFarkleGamesPlayedText.ForeColor = Color.Blue;
+            lblFarkleTimeCount.ForeColor = Color.Blue;
+            lblFarkleTimeText.ForeColor = Color.Blue;
         }
 
         /// <summary>
@@ -44,7 +54,7 @@ namespace Interface
         /// <param name="e"></param>
         private void lblPlayFarkle_MouseLeave(object sender, EventArgs e)
         {
-            this.lblPlayFarkle.BackColor = Color.FromArgb(21, 32, 48);
+            this.lblPlayFarkle.BackColor = Color.FromArgb(192, 255, 192);
             lblFarkleGamesPlayedCounter.ForeColor = Color.Black;
             lblFarkleGamesPlayedText.ForeColor = Color.Black;
             lblFarkleTimeCount.ForeColor = Color.Black;
@@ -59,10 +69,10 @@ namespace Interface
         private void lblPlayCandyland_MouseHover(object sender, EventArgs e)
         {
             this.lblPlayCandyland.BackColor = Color.FromArgb(214, 199, 156);
-            lblCandylandGamesPlayedCounter.ForeColor = Color.GhostWhite;
-            lblCandylandGamesPlayedText.ForeColor = Color.GhostWhite;
-            lblCandylandTimeCount.ForeColor = Color.GhostWhite;
-            lblCandylandTimeText.ForeColor = Color.GhostWhite;
+            lblCandylandGamesPlayedCounter.ForeColor = Color.Blue;
+            lblCandylandGamesPlayedText.ForeColor = Color.Blue;
+            lblCandylandTimeCount.ForeColor = Color.Blue;
+            lblCandylandTimeText.ForeColor = Color.Blue;
         }
 
         /// <summary>
@@ -72,7 +82,7 @@ namespace Interface
         /// <param name="e"></param>
         private void lblPlayCandyland_MouseLeave(object sender, EventArgs e)
         {
-            this.lblPlayCandyland.BackColor = Color.FromArgb(21, 32, 48);
+            this.lblPlayCandyland.BackColor = Color.FromArgb(192, 255, 192);
             lblCandylandGamesPlayedCounter.ForeColor = Color.Black;
             lblCandylandGamesPlayedText.ForeColor = Color.Black;
             lblCandylandTimeCount.ForeColor = Color.Black;
@@ -92,7 +102,7 @@ namespace Interface
         private void lblPlayFarkle_Click(object sender, EventArgs e)
         {
             pbFarkle.Visible = Visible;
-            while(pbFarkle.Value != 100)
+            while (pbFarkle.Value != 100)
             {
                 int FarkleLoadProgressRate = rand.Next(300) + 1;
                 pbFarkle.PerformStep();
@@ -101,17 +111,44 @@ namespace Interface
 
             if (pbFarkle.Value == 100)
             {
+                farkleStartTime = DateTime.Now;
                 //Game_CandyLand.CandyLandGame CandylandForm = new Game_CandyLand.CandyLandGame();
                 //CandylandForm.Show();
+                farkleCount++;
+                lblFarkleGamesPlayedCounter.Text = farkleCount.ToString();
                 Farkle.MainMenu FarkleMenu = new Farkle.MainMenu();
-                FarkleMenu.Show();
+                FarkleMenu.ShowDialog();
                 pbFarkle.Value = 0;
                 pbFarkle.Visible = false;
+
+                // Declare TimeSpan and DateTime.                    
+                TimeSpan totalTimeFarkle;
+                DateTime farkleEndTime = DateTime.Now;
+
+                // If farkleOverallTime is at minvalue then run this.
+                if (farkleOverallTime == TimeSpan.MinValue)
+                {
+                    // this part of the if statement should only run on the first time through.
+                    // totalTime equals farkleEndTime subtract farkleStartTime.
+                    totalTimeFarkle = (farkleEndTime - farkleStartTime);
+
+                    // Change farkleOverallTime to totalTime, thus ensuring that the else statement will run from this point on.
+                    farkleOverallTime = totalTimeFarkle;
+                }
+                else
+                {
+                    // totalTime equals farkleEndTime subtract farkleStartTime plus all the previous times added up. 
+                    totalTimeFarkle = farkleOverallTime + (farkleEndTime - farkleStartTime);
+                    farkleOverallTime = totalTimeFarkle;
+                }
+                // Display totalTime played in lblFarklelandTimeCount.
+                lblFarkleTimeCount.Text = totalTimeFarkle.ToString(@"hh\:mm\:ss");
             }
         }
 
         private void lblPlayCandyland_Click(object sender, EventArgs e)
         {
+            candyStartTime = DateTime.Now;
             pbCandyland.Visible = Visible;
             while (pbCandyland.Value != 100)
             {
@@ -122,10 +159,35 @@ namespace Interface
 
             if(pbCandyland.Value == 100)
             {
+                candyCount++;
+                lblCandylandGamesPlayedCounter.Text = candyCount.ToString();
                 Game_CandyLand.CandyLandGame CandylandForm = new Game_CandyLand.CandyLandGame();
-                CandylandForm.Show();
+                CandylandForm.ShowDialog();
                 pbCandyland.Value = 0;
                 pbCandyland.Visible = false;
+                               
+                // Declare TimeSpan and DateTime.                    
+                TimeSpan totalTime;
+                DateTime candyEndTime = DateTime.Now;
+
+                // If candyOverallTime is at minvalue then run this.
+                if (candyOverallTime == TimeSpan.MinValue)
+                {
+                    // this part of the if statement should only run on the first time through.
+                    // totalTime equals candyEndTime subtract candyStartTime.
+                    totalTime = (candyEndTime - candyStartTime);
+
+                    // Change candyOverallTime to totalTime, thus ensuring that the else statement will run from this point on.
+                    candyOverallTime = totalTime;
+                }
+                else
+                {
+                    // totalTime equals candyEndTime subtract candyStartTime plus all the previous times added up. 
+                    totalTime = candyOverallTime + (candyEndTime - candyStartTime);
+                    candyOverallTime = totalTime;
+                }
+                // Display totalTime played in lblCandylandTimeCount.
+                lblCandylandTimeCount.Text = totalTime.ToString(@"hh\:mm\:ss");                
             }
         }
     }
