@@ -89,7 +89,7 @@ namespace Game_CandyLand
         /// <summary>
         /// The messages label.
         /// </summary>
-        private System.Windows.Forms.Button BtnInstructions;
+        private System.Windows.Forms.Button btnInstructions;
 
         #region Windows Form Designer generated code
 
@@ -129,7 +129,7 @@ namespace Game_CandyLand
             this.lblRound = new System.Windows.Forms.Label();
             this.lblMessages = new System.Windows.Forms.Label();
             this.lblPlayerTurn = new System.Windows.Forms.Label();
-            this.BtnInstructions = new System.Windows.Forms.Button();
+            this.btnInstructions = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxGameBoard)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCardDisplay)).BeginInit();
             this.SuspendLayout();
@@ -137,8 +137,8 @@ namespace Game_CandyLand
             // pbxGameBoard
             // 
             this.pbxGameBoard.Image = ((System.Drawing.Image)(resources.GetObject("pbxGameBoard.Image")));
-            this.pbxGameBoard.Location = new System.Drawing.Point(10, 9);
-            this.pbxGameBoard.Margin = new System.Windows.Forms.Padding(2);
+            this.pbxGameBoard.Location = new System.Drawing.Point(27, 21);
+            this.pbxGameBoard.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.pbxGameBoard.MaximumSize = new System.Drawing.Size(1211, 882);
             this.pbxGameBoard.MinimumSize = new System.Drawing.Size(1211, 882);
             this.pbxGameBoard.Name = "pbxGameBoard";
@@ -154,10 +154,10 @@ namespace Game_CandyLand
             this.btnDraw.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnDraw.Font = new System.Drawing.Font("Showcard Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDraw.ForeColor = System.Drawing.Color.HotPink;
-            this.btnDraw.Location = new System.Drawing.Point(1258, 69);
-            this.btnDraw.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDraw.Location = new System.Drawing.Point(3355, 165);
+            this.btnDraw.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnDraw.Name = "btnDraw";
-            this.btnDraw.Size = new System.Drawing.Size(134, 153);
+            this.btnDraw.Size = new System.Drawing.Size(357, 365);
             this.btnDraw.TabIndex = 1;
             this.btnDraw.Text = "Draw Card";
             this.btnDraw.UseVisualStyleBackColor = false;
@@ -168,9 +168,10 @@ namespace Game_CandyLand
             this.lblOutputLog.AutoSize = true;
             this.lblOutputLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOutputLog.ForeColor = System.Drawing.Color.Magenta;
-            this.lblOutputLog.Location = new System.Drawing.Point(1208, 705);
+            this.lblOutputLog.Location = new System.Drawing.Point(3221, 1681);
+            this.lblOutputLog.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblOutputLog.Name = "lblOutputLog";
-            this.lblOutputLog.Size = new System.Drawing.Size(170, 18);
+            this.lblOutputLog.Size = new System.Drawing.Size(436, 44);
             this.lblOutputLog.TabIndex = 3;
             this.lblOutputLog.Text = "Welcome to CandyLand!";
             // 
@@ -180,10 +181,10 @@ namespace Game_CandyLand
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnExit.Font = new System.Drawing.Font("Showcard Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.HotPink;
-            this.btnExit.Location = new System.Drawing.Point(1258, 226);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Location = new System.Drawing.Point(3355, 539);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(134, 51);
+            this.btnExit.Size = new System.Drawing.Size(357, 122);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -194,9 +195,10 @@ namespace Game_CandyLand
             this.lblLabel1.BackColor = System.Drawing.Color.Transparent;
             this.lblLabel1.ForeColor = System.Drawing.Color.White;
             this.lblLabel1.Image = ((System.Drawing.Image)(resources.GetObject("lblLabel1.Image")));
-            this.lblLabel1.Location = new System.Drawing.Point(218, 822);
+            this.lblLabel1.Location = new System.Drawing.Point(581, 1960);
+            this.lblLabel1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblLabel1.Name = "lblLabel1";
-            this.lblLabel1.Size = new System.Drawing.Size(44, 47);
+            this.lblLabel1.Size = new System.Drawing.Size(117, 112);
             this.lblLabel1.TabIndex = 5;
             this.lblLabel1.Text = "Player1";
             this.lblLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -206,9 +208,10 @@ namespace Game_CandyLand
             this.lblLabel2.BackColor = System.Drawing.Color.Transparent;
             this.lblLabel2.ForeColor = System.Drawing.Color.White;
             this.lblLabel2.Image = ((System.Drawing.Image)(resources.GetObject("lblLabel2.Image")));
-            this.lblLabel2.Location = new System.Drawing.Point(142, 725);
+            this.lblLabel2.Location = new System.Drawing.Point(379, 1729);
+            this.lblLabel2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblLabel2.Name = "lblLabel2";
-            this.lblLabel2.Size = new System.Drawing.Size(44, 47);
+            this.lblLabel2.Size = new System.Drawing.Size(117, 112);
             this.lblLabel2.TabIndex = 6;
             this.lblLabel2.Text = "Player2";
             this.lblLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -218,9 +221,10 @@ namespace Game_CandyLand
             this.lblLabel3.BackColor = System.Drawing.Color.Transparent;
             this.lblLabel3.ForeColor = System.Drawing.Color.White;
             this.lblLabel3.Image = ((System.Drawing.Image)(resources.GetObject("lblLabel3.Image")));
-            this.lblLabel3.Location = new System.Drawing.Point(54, 803);
+            this.lblLabel3.Location = new System.Drawing.Point(144, 1915);
+            this.lblLabel3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblLabel3.Name = "lblLabel3";
-            this.lblLabel3.Size = new System.Drawing.Size(44, 47);
+            this.lblLabel3.Size = new System.Drawing.Size(117, 112);
             this.lblLabel3.TabIndex = 7;
             this.lblLabel3.Text = "Player3";
             this.lblLabel3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -230,9 +234,10 @@ namespace Game_CandyLand
             this.lblLabel4.BackColor = System.Drawing.Color.Transparent;
             this.lblLabel4.ForeColor = System.Drawing.Color.White;
             this.lblLabel4.Image = ((System.Drawing.Image)(resources.GetObject("lblLabel4.Image")));
-            this.lblLabel4.Location = new System.Drawing.Point(142, 803);
+            this.lblLabel4.Location = new System.Drawing.Point(379, 1915);
+            this.lblLabel4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblLabel4.Name = "lblLabel4";
-            this.lblLabel4.Size = new System.Drawing.Size(44, 47);
+            this.lblLabel4.Size = new System.Drawing.Size(117, 112);
             this.lblLabel4.TabIndex = 8;
             this.lblLabel4.Text = "Player4";
             this.lblLabel4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -263,7 +268,8 @@ namespace Game_CandyLand
             // pbxCardDisplay
             // 
             this.pbxCardDisplay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pbxCardDisplay.Location = new System.Drawing.Point(1276, 513);
+            this.pbxCardDisplay.Location = new System.Drawing.Point(3403, 1223);
+            this.pbxCardDisplay.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbxCardDisplay.Name = "pbxCardDisplay";
             this.pbxCardDisplay.Size = new System.Drawing.Size(100, 50);
             this.pbxCardDisplay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -275,9 +281,10 @@ namespace Game_CandyLand
             this.btnNextPlayer.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnNextPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNextPlayer.ForeColor = System.Drawing.Color.HotPink;
-            this.btnNextPlayer.Location = new System.Drawing.Point(1258, 282);
+            this.btnNextPlayer.Location = new System.Drawing.Point(3355, 672);
+            this.btnNextPlayer.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btnNextPlayer.Name = "btnNextPlayer";
-            this.btnNextPlayer.Size = new System.Drawing.Size(134, 51);
+            this.btnNextPlayer.Size = new System.Drawing.Size(357, 122);
             this.btnNextPlayer.TabIndex = 10;
             this.btnNextPlayer.Text = "Go to Next Players Turn";
             this.btnNextPlayer.UseVisualStyleBackColor = false;
@@ -287,9 +294,10 @@ namespace Game_CandyLand
             // 
             this.lblRound.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRound.ForeColor = System.Drawing.Color.Lime;
-            this.lblRound.Location = new System.Drawing.Point(1246, 9);
+            this.lblRound.Location = new System.Drawing.Point(3323, 21);
+            this.lblRound.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblRound.Name = "lblRound";
-            this.lblRound.Size = new System.Drawing.Size(146, 58);
+            this.lblRound.Size = new System.Drawing.Size(389, 138);
             this.lblRound.TabIndex = 11;
             this.lblRound.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -298,9 +306,10 @@ namespace Game_CandyLand
             this.lblMessages.AutoSize = true;
             this.lblMessages.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessages.ForeColor = System.Drawing.Color.Magenta;
-            this.lblMessages.Location = new System.Drawing.Point(1208, 740);
+            this.lblMessages.Location = new System.Drawing.Point(3221, 1765);
+            this.lblMessages.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblMessages.Name = "lblMessages";
-            this.lblMessages.Size = new System.Drawing.Size(0, 18);
+            this.lblMessages.Size = new System.Drawing.Size(0, 44);
             this.lblMessages.TabIndex = 12;
             // 
             // lblPlayerTurn
@@ -308,33 +317,35 @@ namespace Game_CandyLand
             this.lblPlayerTurn.AutoSize = true;
             this.lblPlayerTurn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlayerTurn.ForeColor = System.Drawing.Color.Magenta;
-            this.lblPlayerTurn.Location = new System.Drawing.Point(1217, 376);
+            this.lblPlayerTurn.Location = new System.Drawing.Point(3245, 897);
+            this.lblPlayerTurn.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblPlayerTurn.Name = "lblPlayerTurn";
-            this.lblPlayerTurn.Size = new System.Drawing.Size(209, 24);
+            this.lblPlayerTurn.Size = new System.Drawing.Size(506, 55);
             this.lblPlayerTurn.TabIndex = 13;
             this.lblPlayerTurn.Text = "It is Player Ones turn.";
             // 
-            // BtnInstructions
+            // btnInstructions
             // 
-            this.BtnInstructions.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.BtnInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnInstructions.ForeColor = System.Drawing.Color.HotPink;
-            this.BtnInstructions.Location = new System.Drawing.Point(1258, 339);
-            this.BtnInstructions.Name = "BtnInstructions";
-            this.BtnInstructions.Size = new System.Drawing.Size(134, 23);
-            this.BtnInstructions.TabIndex = 14;
-            this.BtnInstructions.Text = "Instructions";
-            this.BtnInstructions.UseVisualStyleBackColor = false;
-            this.BtnInstructions.Click += new System.EventHandler(this.BtnInstructions_Click);
+            this.btnInstructions.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInstructions.ForeColor = System.Drawing.Color.HotPink;
+            this.btnInstructions.Location = new System.Drawing.Point(3355, 808);
+            this.btnInstructions.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btnInstructions.Name = "btnInstructions";
+            this.btnInstructions.Size = new System.Drawing.Size(357, 55);
+            this.btnInstructions.TabIndex = 14;
+            this.btnInstructions.Text = "Instructions";
+            this.btnInstructions.UseVisualStyleBackColor = false;
+            this.btnInstructions.Click += new System.EventHandler(this.BtnInstructions_Click);
             // 
             // PlayerBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1560, 943);
-            this.Controls.Add(this.BtnInstructions);
+            this.ClientSize = new System.Drawing.Size(3824, 2088);
+            this.Controls.Add(this.btnInstructions);
             this.Controls.Add(this.lblPlayerTurn);
             this.Controls.Add(this.lblRound);
             this.Controls.Add(this.btnNextPlayer);
@@ -348,8 +359,8 @@ namespace Game_CandyLand
             this.Controls.Add(this.btnDraw);
             this.Controls.Add(this.lblMessages);
             this.Controls.Add(this.pbxGameBoard);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(910, 570);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.MinimumSize = new System.Drawing.Size(2373, 1237);
             this.Name = "PlayerBoard";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

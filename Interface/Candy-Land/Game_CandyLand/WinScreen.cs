@@ -63,7 +63,8 @@ namespace Game_CandyLand
         {
             // If exit button is pressed end the application.
             Environment.Exit(0);
-            this.Close();
+
+            // this.Close();
         }
 
         /// <summary>

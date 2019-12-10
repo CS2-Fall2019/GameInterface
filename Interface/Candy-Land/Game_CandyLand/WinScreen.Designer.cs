@@ -3,8 +3,11 @@
 //     Copyright (c) Ian Burroughs, Mike Boudreau, Brandon Biles & James A. Schulze. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
+
 namespace Game_CandyLand
 {
+    using System.Windows.Forms;
+
     /// <summary>
     /// Class to represent the Winscreen form.
     /// </summary>
@@ -13,7 +16,7 @@ namespace Game_CandyLand
         /// <summary>
         /// Win label.
         /// </summary>
-        public System.Windows.Forms.Label LblWin;
+        private System.Windows.Forms.Label lblWin;
 
         /// <summary>
         /// Required designer variable.
@@ -34,6 +37,15 @@ namespace Game_CandyLand
         /// New multiplayer game button.
         /// </summary>
         private System.Windows.Forms.Button btnNewMultiplayerGame;
+
+        /// <summary>
+        /// Gets or sets Win label.
+        /// </summary>
+        public Label LblWin
+        {
+            get => this.lblWin;
+            set => this.lblWin = value;
+        }
 
         /// <summary>
         /// Clean up any resources being used.
@@ -59,7 +71,7 @@ namespace Game_CandyLand
         {
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.LblWin = new System.Windows.Forms.Label();
+            this.lblWin = new System.Windows.Forms.Label();
             this.btnNewMultiplayerGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -87,17 +99,17 @@ namespace Game_CandyLand
             // 
             // LblWin
             // 
-            this.LblWin.AutoSize = true;
-            this.LblWin.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.LblWin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.LblWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblWin.ForeColor = System.Drawing.Color.Black;
-            this.LblWin.Location = new System.Drawing.Point(34, 53);
-            this.LblWin.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.LblWin.Name = "LblWin";
-            this.LblWin.Size = new System.Drawing.Size(261, 26);
-            this.LblWin.TabIndex = 2;
-            this.LblWin.Text = "Congratulations player 1 wins!";
+            this.lblWin.AutoSize = true;
+            this.lblWin.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblWin.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWin.ForeColor = System.Drawing.Color.Black;
+            this.lblWin.Location = new System.Drawing.Point(34, 53);
+            this.lblWin.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.lblWin.Name = "LblWin";
+            this.lblWin.Size = new System.Drawing.Size(261, 26);
+            this.lblWin.TabIndex = 2;
+            this.lblWin.Text = "Congratulations player 1 wins!";
             // 
             // btnNewMultiplayerGame
             // 
@@ -117,7 +129,7 @@ namespace Game_CandyLand
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(312, 196);
             this.Controls.Add(this.btnNewMultiplayerGame);
-            this.Controls.Add(this.LblWin);
+            this.Controls.Add(this.lblWin);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnNewGame);
             this.Margin = new System.Windows.Forms.Padding(1);
