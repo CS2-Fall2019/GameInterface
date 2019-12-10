@@ -157,3 +157,16 @@ C:\Users\Home\OneDrive\Desktop\Interface\Candy-Land\Game_CandyLand\obj\Debug\Gam
 C:\Users\Home\OneDrive\Desktop\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.Properties.Resources.resources
 C:\Users\Home\OneDrive\Desktop\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.WinScreen.resources
 C:\Users\Home\OneDrive\Desktop\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.csproj.GenerateResource.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\bin\Debug\Game_CandyLand.exe.config
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\bin\Debug\Game_CandyLand.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\bin\Debug\Game_CandyLand.pdb
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.csprojAssemblyReference.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.CandyLandGame.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.Multiplayer.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.PlayerBoard.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.Properties.Resources.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.WinScreen.resources
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.csproj.GenerateResource.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.exe
+C:\Users\Brandon\Documents\NWTC\C# part 2\GameInterface\GameInterface-master\GameInterface-master\Interface\Candy-Land\Game_CandyLand\obj\Debug\Game_CandyLand.pdb
