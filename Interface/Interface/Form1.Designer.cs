@@ -1,6 +1,15 @@
-﻿namespace Interface
+﻿//-----------------------------------------------------------------------
+// <copyright file="Form1.Designer.cs" company="Ian Burroughs, Mike Boudreau, Brandon Biles & James A. Schulze">
+//     Copyright (c) Ian Burroughs, Mike Boudreau, Brandon Biles & James A. Schulze. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
+namespace Interface
 {
-    partial class GameInterface
+    /// <summary>
+    /// Required method for Designer support - do not modify
+    /// </summary>
+    public partial class GameInterface
     {
         /// <summary>
         /// Required designer variable.
@@ -8,15 +17,81 @@
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblPlayFarkle;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblPlayCandyland;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblFarkleGamesPlayedText;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblFarkleGamesPlayedCounter;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblCandylandGamesPlayedCounter;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblCandylandGamesPlayedText;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblFarkleTimeCount;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblFarkleTimeText;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblCandylandTimeCount;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblCandylandTimeText;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.Label lblPlay1;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.ProgressBar pbFarkle;
+
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.Windows.Forms.ProgressBar pbCandyland;
+
+        /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing && (this.components != null))
             {
-                components.Dispose();
+                this.components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
@@ -53,9 +128,9 @@
             this.lblPlayFarkle.Size = new System.Drawing.Size(338, 120);
             this.lblPlayFarkle.TabIndex = 0;
             this.lblPlayFarkle.Text = "Play Farkle";
-            this.lblPlayFarkle.Click += new System.EventHandler(this.lblPlayFarkle_Click);
-            this.lblPlayFarkle.MouseLeave += new System.EventHandler(this.lblPlayFarkle_MouseLeave);
-            this.lblPlayFarkle.MouseHover += new System.EventHandler(this.lblPlayFarkle_MouseHover);
+            this.lblPlayFarkle.Click += new System.EventHandler(this.LblPlayFarkle_Click);
+            this.lblPlayFarkle.MouseLeave += new System.EventHandler(this.LblPlayFarkle_MouseLeave);
+            this.lblPlayFarkle.MouseHover += new System.EventHandler(this.LblPlayFarkle_MouseHover);
             // 
             // lblPlayCandyland
             // 
@@ -67,9 +142,9 @@
             this.lblPlayCandyland.Size = new System.Drawing.Size(479, 120);
             this.lblPlayCandyland.TabIndex = 1;
             this.lblPlayCandyland.Text = "Play CandyLand";
-            this.lblPlayCandyland.Click += new System.EventHandler(this.lblPlayCandyland_Click);
-            this.lblPlayCandyland.MouseLeave += new System.EventHandler(this.lblPlayCandyland_MouseLeave);
-            this.lblPlayCandyland.MouseHover += new System.EventHandler(this.lblPlayCandyland_MouseHover);
+            this.lblPlayCandyland.Click += new System.EventHandler(this.LblPlayCandyland_Click);
+            this.lblPlayCandyland.MouseLeave += new System.EventHandler(this.LblPlayCandyland_MouseLeave);
+            this.lblPlayCandyland.MouseHover += new System.EventHandler(this.LblPlayCandyland_MouseHover);
             // 
             // lblFarkleGamesPlayedText
             // 
@@ -170,7 +245,7 @@
             this.lblPlay1.Size = new System.Drawing.Size(189, 32);
             this.lblPlay1.TabIndex = 10;
             this.lblPlay1.Text = "Do Not Press!";
-            this.lblPlay1.Click += new System.EventHandler(this.lblPlay1_Click);
+            this.lblPlay1.Click += new System.EventHandler(this.LblPlay1_Click);
             // 
             // pbFarkle
             // 
@@ -214,24 +289,8 @@
             this.Text = "Game interface";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblPlayFarkle;
-        private System.Windows.Forms.Label lblPlayCandyland;
-        private System.Windows.Forms.Label lblFarkleGamesPlayedText;
-        private System.Windows.Forms.Label lblFarkleGamesPlayedCounter;
-        private System.Windows.Forms.Label lblCandylandGamesPlayedCounter;
-        private System.Windows.Forms.Label lblCandylandGamesPlayedText;
-        private System.Windows.Forms.Label lblFarkleTimeCount;
-        private System.Windows.Forms.Label lblFarkleTimeText;
-        private System.Windows.Forms.Label lblCandylandTimeCount;
-        private System.Windows.Forms.Label lblCandylandTimeText;
-        private System.Windows.Forms.Label lblPlay1;
-        private System.Windows.Forms.ProgressBar pbFarkle;
-        private System.Windows.Forms.ProgressBar pbCandyland;
     }
 }
-
